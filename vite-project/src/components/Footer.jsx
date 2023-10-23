@@ -3,20 +3,27 @@ export default function Footer() {
     
   
     return (
-      <nav className="main-header-menu">
+      <nav >
         
         <section
           style={{
             display: 'flex',
             fontFamily: 'helvetica',
             flexDirection: 'row',
-            alignItems: 'flex-start',
+            alignItems: 'center',
             justifyContent: 'center',
+            gap:'10px',
+            
+            
           }}
         >
             <div>
                 github 
             </div>
+            <div>
+                email 
+            </div>
+            
             
      
         </section>

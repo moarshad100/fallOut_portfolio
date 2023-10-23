@@ -1,0 +1,21 @@
+.header{
+    background-color: lightblue;
+    color: black;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    flex-shrink: 4;
+    font-size: 20px;    
+
+}
+
+.main-header-menu
+{
+    margin-left: auto;
+    order: 2;
+}
+
+header{
+    font-size: 50px;
+
+    
+}
