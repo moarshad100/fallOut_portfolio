@@ -8,6 +8,7 @@ import About from './pages/AboutPage';
 import ErrorPage from './pages/ErrorPage';
 import Portfolio from './pages/PortfolioPage';
 import Contact from './pages/contactPage';
+import Resume from './pages/ResumePage';
 
 
 // Define the accessible routes, and which components respond to which URL
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     children: [
       
       {
+        path: '/',
+        element: <About />,
+      },
+      {
         path: '/about',
         element: <About />,
       },
@@ -29,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />,
+      },
+      {
+        path: '/resume',
+        element: <Resume />,
       },
 ],
   },

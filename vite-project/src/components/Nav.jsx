@@ -17,22 +17,24 @@ export default function Nav() {
           
           
           <div style={linkStyle}>
-          <Link className="nav-link text-dark" to="/about">
-          About Us
+          <Link className="nav-link" to="/about">
+          About-Me
         </Link>
           </div>
           <div style={linkStyle}>
-          <Link className="nav-link text-dark" to="/portfolio">
+          <Link className="nav-link" to="/portfolio">
           Portfolio
         </Link>
           </div>
           <div style={linkStyle}>
-          <Link className="nav-link text-dark" to="/contact">
-          Contact Page
+          <Link className="nav-link" to="/contact">
+          Contact
           </Link>
           </div>
           <div style={linkStyle}>
-            <a href="#">Resume</a>
+          <Link className="nav-link" to="/resume">
+          Resume
+          </Link>
           </div>          
         </section>
       </nav>
