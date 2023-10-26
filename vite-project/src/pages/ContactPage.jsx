@@ -1,9 +1,9 @@
-// const validEmail = new RegExp('^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$');
+import React, { useState } from "react";
 
 const linkStyle = { alignItems: "left", justifyContent: "left" };
 
 function sayHello() {
-  alert("You clicked me!");
+  alert("hello");
 }
 
 function Contact() {
@@ -19,7 +19,7 @@ function Contact() {
         id="subject"
         name="subject"
         placeholder="message"
-        style={{ height: "200px", width: "190px" }}
+        style={{ minHeight: "200px", width: "190px", maxHeight: "200px" }}
       ></textarea>
       <br />
       <button onClick={sayHello}>Submit</button>

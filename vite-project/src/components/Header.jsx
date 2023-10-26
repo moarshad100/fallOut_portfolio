@@ -1,11 +1,5 @@
-
 function Header() {
-    return(
-        <header>
-            Arshad
-        </header>
-    )
+  return <header>Arshad</header>;
+}
 
-  }
-
-  export default Header;
+export default Header;
