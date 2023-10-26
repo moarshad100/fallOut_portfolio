@@ -1,4 +1,3 @@
-import { Icon, colors } from "@mui/material";
 import Box from "@mui/material/Box";
 import Container from "@mui/material/Container";
 import GitHubIcon from "@mui/icons-material/GitHub";
