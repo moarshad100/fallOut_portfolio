@@ -15,7 +15,12 @@ function Contact() {
       <br />
       <input type="email" name="email" id="email" placeholder="email" />
       <br />
-      <input type="text" name="message" id="message" placeholder="Message" />
+      <textarea
+        id="subject"
+        name="subject"
+        placeholder="message"
+        style={{ height: "200px", width: "190px" }}
+      ></textarea>
       <br />
       <button onClick={sayHello}>Submit</button>
     </section>
