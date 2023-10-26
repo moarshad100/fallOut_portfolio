@@ -10,7 +10,17 @@ function Resume() {
         <p style={{ display: "flex", fontWeight: "Bold" }}>
           Download my resume
           <a href={myResume} download="My_Resume.pdf">
-            <DownloadIcon />
+            <DownloadIcon
+              onMouseOver={(event) => {
+                event.target.style.background = "rgba(255, 255, 255, 0.40)";
+                event.target.style.borderRadius = "5px";
+              }}
+              onMouseLeave={(event) => {
+                event.target.style.background = "";
+                event.target.style.borderRadius = "0px";
+              }}
+              sx={{ color: "white" }}
+            />
           </a>
         </p>
       </div>
